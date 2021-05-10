@@ -2253,7 +2253,7 @@ var links = [
     {
         label: "Certik Audit (In-Progress)",
         icon: "ShieldIcon",
-        href: "https://twitter.com/bpswap/status/1367218225310818308",
+        href: "https://twitter.com/BPSWAP1/status/1367218225310818308",
         target: "_blank",
     },
     {
@@ -2353,18 +2353,18 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/bpswapchat",
+                href: "https://t.me/BPSWAP",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/bpswap",
+                href: "https://t.me/BPswapANN",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/bpswap",
+        href: "https://twitter.com/BPSWAP1",
     },
 ];
 var MENU_HEIGHT = 64;
