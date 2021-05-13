@@ -2090,8 +2090,9 @@ var Icon$S = function (props) {
 styled.text(templateObject_1$z || (templateObject_1$z = __makeTemplateObject(["\n  font-size: 26.26px;\n  font-family: GoodTimingRg-Bold, Good Timing !important;\n  font-weight: 700;\n"], ["\n  font-size: 26.26px;\n  font-family: GoodTimingRg-Bold, Good Timing !important;\n  font-weight: 700;\n"])));
 styled.tspan(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  font-size: 26.26px;\n  font-family: GoodTimingRg-Bold, Good Timing !important;\n  font-weight: 700;\n  letter-spacing: 0em;\n"], ["\n  font-size: 26.26px;\n  font-family: GoodTimingRg-Bold, Good Timing !important;\n  font-weight: 700;\n  letter-spacing: 0em;\n"])));
 var Logo = function (_a) {
-    _a.isDark; __rest(_a, ["isDark"]);
-    return (React.createElement("img", { width: "220px", height: "50px", src: "/images/logo.png" }));
+    var isDark = _a.isDark; __rest(_a, ["isDark"]);
+    var logoImg = isDark ? "/images/logo-dark.png" : "/images/logo.png";
+    return (React.createElement("img", { width: "220px", height: "50px", src: logoImg }));
 };
 var templateObject_1$z, templateObject_2$b;
 

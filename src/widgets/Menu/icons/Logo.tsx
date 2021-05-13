@@ -3,6 +3,7 @@ import Svg from "../../../components/Svg/Svg";
 import { SvgProps } from "../../../components/Svg/types";
 import styled from "styled-components";
 
+
 const Text = styled.text`
   font-size: 26.26px;
   font-family: GoodTimingRg-Bold, Good Timing !important;
@@ -20,9 +21,10 @@ interface LogoProps extends SvgProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
+  const logoImg = isDark ? "/images/logo-dark.png" : "/images/logo.png";
   const textColor = isDark ? "#FFFFFF" : "#432918";
   return (
-    <img width="220px" height="50px" src="/images/logo.png"/>
+    <img width="220px" height="50px" src={logoImg}/>
   );
 };
 
